@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+#image-heart {
+  display: flex;
+  align-items: baseline;
+}
+
+
+.size-heart {
+  width: 25px;
+}
+
+.title-logo {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.head1 {
+  display: flex;
+  align-items: baseline;
+}
+
+#npm-logo img {
+  width: 70px;
+  display: flex;
+
+}
+
+#magnifying-glass img {
+  width: 15px;
+
+}
+
+header > div {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color:black;
+  font-weight: bolder;
+}
+
+#nav-bar2{
+  width:105em;
+
+}
+
+.search-button{
+  background-color:#fb3e44;
+  color: white;
+  border:0.3em solid #fb3e44;
+  padding: 0.4em;
+}
+
+.search-package{
+  padding-left: 2em;
+  background: url("images/magnifying-glass.png");
+  background-size: 15px;
+  width: 65em;
+  background-repeat: no-repeat;
+  border:5px solid #ebe3e3;
+  background-color: #ebe3e3;
+}
+
+
+.join-button{
+  background-color: white;
+  border-width: 0.8em;
+  font-size: 14px;
+  border-radius: 0.1em;
+  padding: 0.2em;
+}
+
+
+section{
+  text-align: center;
+  height: 600px;
+  background-color: rgba(232,217,217,.3);
+  margin: 0 
+}
+
+.h1-section1{
+  font-size: 5em;
+  margin-top: auto;
+  padding-top: 0.8em;
+}
+
+.p1-section1{
+  font-size: 1.3em;;
+}
+
+.see-plans{
+  background-color:#fb3b49;
+  box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+  color: white;
+  border:5px solid #fb3e44;
+  padding: 0.2em 1.2em;
+  margin:0.5em 2em;
+  font-size: 1.5em;
+  text-decoration: none;
+  
+}
+
+.join-free{
+  background-color:white;
+  color: black;
+  padding: 0.2em 1.2em;
+  margin:0.5em 2em;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.section2 img{
+  width: 12em;
+}
+
+.section2 h1{
+background-color:rgba(255,204,53,.4);
+width: 25em;
+text-transform: skew(9deg,0deg);
+font-style:italic;
+justify-content: center;
+margin:2em auto;
+}
+
+.section3 img{
+width: 2em;
+}
+
+.section3 h3{
+color: #ED1C24;
+font-size: 14px;
+}
+
+.section3 a{
+  background-color: black;
+  color:white;
+  text-decoration: none;
+  padding: 2em;
+  width: 15em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  margin: 3em 30em;
+
+  
+}
+
+.section3 div{
+  display: inline-block;
+  margin-right: 40px;
+  width: 200px;
+}
